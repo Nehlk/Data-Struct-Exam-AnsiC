@@ -64,3 +64,26 @@
 	"validaciones.h"
 	"utn.h"
 
+1571690356 source:c:\users\nehl\desktop\data-struct-exam-ansic\primerparciallab1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"clientes.h"
+
+1571690356 c:\users\nehl\desktop\data-struct-exam-ansic\primerparciallab1\clientes.h
+
+1571690356 source:c:\users\nehl\desktop\data-struct-exam-ansic\primerparciallab1\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1571690356 c:\users\nehl\desktop\data-struct-exam-ansic\primerparciallab1\utn.h
+
+1571690356 source:c:\users\nehl\desktop\data-struct-exam-ansic\primerparciallab1\validaciones.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"validaciones.h"
+
+1571690356 c:\users\nehl\desktop\data-struct-exam-ansic\primerparciallab1\validaciones.h
+

@@ -995,6 +995,28 @@ void listarJuegosPorImportes(eJuegos juegos[], int cantidadJuegos)
 }
 
 
+void ordenamientoApellidosClientes(eCliente clientes[], int cantCliente )
+{
+
+    int i,k;
+    eCliente auxCliente;
+
+    for ( i = 1; i < cantCliente; i++) // recorre los clientes
+    {
+        auxCliente = clientes[i]; //almacena el primer cliente en un auxiliar
+        k = i - 1;                  //k ahora es uno menos que I
+
+        while (k >= 0 && strcmpi(clientes[i].apellido, clientes[k].apellido) < 0) //Mientras que k sea mayor o igua la 0 y la comparacion del apellido sea menor
+        {
+            clientes[k+1] = clientes[k];   //K mas 1 es igual a K
+            k-- ;                          // y a K se le resta 1
+        }
+
+        clientes[k+1] = auxCliente;         // k+1 es igua la auxiliar
+        
+    }
+    
+}
 
 
 
@@ -1020,7 +1042,7 @@ void listarClientesPorApellido(eCliente cliente[], int cantCliente)
 
     if(contador > 0)
     {
-        //ordenamientoApellidosClientes(cliente, cantCliente);
+        ordenamientoApellidosClientes(cliente, cantCliente);
 
         system("cls");
 
