@@ -994,7 +994,11 @@ void listarJuegosPorImportes(eJuegos juegos[], int cantidadJuegos)
    printf("\n\n\n");
 }
 
-
+/* Ej Nº 16
+  * \brief ordena un array de clientes por apellido de forma descendente
+  * \parametro clientes: array, cantCliente: maximo de array
+  * \Return void
+  */
 void ordenamientoApellidosClientes(eCliente clientes[], int cantCliente )
 {
 
@@ -1022,7 +1026,7 @@ void ordenamientoApellidosClientes(eCliente clientes[], int cantCliente )
 
 
 /* Ej Nº 16
-  * \brief ordena un array de clientes por apellido de forma descendente
+  * \brief Lista los clientes ordenados por apellido
   * \parametro clientes: array, cantCliente: maximo de array
   * \Return void
   */
